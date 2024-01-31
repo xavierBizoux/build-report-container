@@ -1,0 +1,5 @@
+Key Value - Marketing Pct of Sales 3
+  Interactivity for this object is limited for the following reasons:
+    * The set of possible values for parameter "Sales Change" could not be derived. Parameters must be bound to data.
+  These reasons might only be a problem because of these data complexities:
+    * This object uses a data item, filter, or rank that references a parameter.

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds10" resourceIdentifier="'cas-shared-default','Samples','RAND_RETAILDEMO','en_US'" tableModifiedTimeStamp="2024-01-30T14:35:42.319Z">
+            <columns>
+                <column dataType="double" format="BEST8." label="CustID" xref="CustID"/>
+                <column dataType="double" format="BEST12." label="12 week RFM Bucket" xref="bucket"/>
+                <column dataType="double" format="BEST12." label="Customer Age" xref="age"/>
+                <column dataType="double" format="F1." label="Loyalty Card" xref="loyalty_card"/>
+                <column dataType="string" label="Department" xref="Department"/>
+                <column dataType="string" label="Brand Name" xref="brand_name"/>
+                <column dataType="string" label="Storechain" xref="Storechain"/>
+                <column dataType="string" label="ChannelType" xref="ChannelType"/>
+                <column dataType="string" label="Class" xref="Class"/>
+                <column dataType="double" format="BEST4." label="StoreNum" xref="StoreNum"/>
+                <column dataType="double" format="BEST2." label="Storeage" xref="Storeage"/>
+                <column dataType="string" label="trx_hr_char" xref="trx_hr_char"/>
+                <column dataType="string" label="trx_dow_new" xref="trx_dow_new"/>
+                <column dataType="string" label="Transaction Time of Day" xref="trx_tod"/>
+                <column dataType="date" format="MMDDYY8" label="Date" xref="Date"/>
+                <column dataType="double" format="TIME8" label="MDY" xref="MDY"/>
+                <column dataType="double" format="BEST4." label="Year" xref="Year"/>
+                <column dataType="double" format="BEST6." label="Sales" xref="Sales"/>
+                <column dataType="double" format="BEST3." label="Cost" xref="Cost"/>
+                <column dataType="double" format="DOLLAR15." label="Marketing Budget" xref="mkt_bdgt"/>
+                <column dataType="double" format="BEST9." label="Margin" xref="Margin"/>
+                <column dataType="double" format="COMMA15." label="Store Square Surface" xref="sss"/>
+                <column dataType="string" label="City" xref="City"/>
+                <column dataType="double" format="BEST11." label="City_Lat" xref="City_Lat"/>
+                <column dataType="double" format="BEST12." label="City_Long" xref="City_Long"/>
+                <column dataType="string" label="Country" xref="Country"/>
+                <column dataType="double" format="BEST7." label="Country_Lat" xref="Country_Lat"/>
+                <column dataType="double" format="BEST9." label="Country_Long" xref="Country_Long"/>
+                <column dataType="string" label="Region" xref="Region"/>
+                <column dataType="double" format="BEST4." label="Region_Lat" xref="Region_Lat"/>
+                <column dataType="double" format="BEST6." label="Region_Long" xref="Region_Long"/>
+                <column dataType="string" label="Region_2" xref="Region_2"/>
+                <column dataType="double" format="BEST4." label="Region_2_Lat" xref="Region_2_Lat"/>
+                <column dataType="double" format="BEST6." label="Region_2_Long" xref="Region_2_Long"/>
+                <column dataType="string" label="State" xref="State"/>
+                <column dataType="double" format="BEST7." label="State_Lat" xref="State_Lat"/>
+                <column dataType="double" format="BEST9." label="State_Long" xref="State_Long"/>
+                <column dataType="string" label="Age Bucket" xref="age_bucket"/>
+                <column dataType="string" label="Storechain1" xref="Storechain1"/>
+                <column dataType="string" label="brand_name1" xref="brand_name1"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds1351" resourceIdentifier="'cas-shared-default','Samples','PROMO_EFFECTIVENESS_X_EFFECTS_2','en_US'" tableModifiedTimeStamp="2024-01-30T14:35:44.914Z">
+            <columns>
+                <column dataType="double" format="BEST6." label="Prod_Hier_SK" xref="prod_hier_sk"/>
+                <column dataType="string" label="Name" xref="name"/>
+                <column dataType="string" label="Promotion Name" xref="promotion_name"/>
+                <column dataType="double" format="BEST7." label="Total Price Impact" xref="total_price_impact"/>
+                <column dataType="double" format="BEST7." label="Own Price Impact" xref="own_price_impact"/>
+                <column dataType="double" format="BEST6." label="Halo / Cannibal Impact" xref="halo___cannibal_impact"/>
+                <column dataType="double" format="BEST8." label="Revenue ($) Baseline" xref="revenue_____baseline"/>
+                <column dataType="double" format="BEST8." label="Revenue ($) Expected" xref="revenue_____expected"/>
+                <column dataType="double" format="BEST5." label="Revenue (%) Expected Change" xref="revenue_____expected_change"/>
+                <column dataType="double" format="BEST8." label="Revenue ($) Actual" xref="revenue_____actual"/>
+                <column dataType="double" format="BEST3." label="Forecast Accuracy" xref="forecast_accuracy"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <title>Display Report Packages</title>
+    </head>
+    <body>
+        <h1>Available report packages</h1>
+        <ul id="list"></ul>
+        <script>
+            const getReportList = async (file) => {
+                const httpResponse = await fetch("data.txt")
+                const text = await httpResponse.text()
+                const reportList = text.split(/\r?\n/)
+                return reportList.filter(report => report.length > 0)
+            }
+
+            const generateList = async (file, target) => {
+                const data = await getReportList(file)
+                const targetTag = document.getElementById(target)
+                data.map(report => {
+                    const aTag = document.createElement("a")
+                    aTag.href = encodeURI(`./${report}`)
+                    aTag.text = report.split('/')[1]
+                    const liTag = document.createElement("li")
+                    liTag.appendChild(aTag)
+                    targetTag.appendChild(liTag)
+                })
+            }
+
+            generateList('data.txt', 'list')
+        </script>
+    </body>
+</html>

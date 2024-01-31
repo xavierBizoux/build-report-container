@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<reportPackage>
+    <dataLevel>offline</dataLevel>
+    <expirationForTimeSensitiveData>2024-02-01T00:00:00Z</expirationForTimeSensitiveData>
+    <files>
+        <file contentKey="7RLQLB3F57RUGS6LCPGXWFZK3VQRKAWG" name="report" type="report">
+            <links>
+                <link href="/report.xml" method="GET" rel="content" type="application/vnd.sas.report.content" uri="/report.xml"/>
+            </links>
+        </file>
+        <file contentKey="GTXQ7DHIUU4RQU7OQIO2QSXMIRI7JBY2" name="basems1.css" type="css">
+            <links>
+                <link href="/css/basems1.css" method="GET" rel="content" type="text/css" uri="/css/basems1.css"/>
+            </links>
+        </file>
+        <file contentKey="MUKCJKQM63VYSZZCK4R73R2RV3I6MFDR" name="highcontrast.css" type="css">
+            <links>
+                <link href="/css/highcontrast.css" method="GET" rel="content" type="text/css" uri="/css/highcontrast.css"/>
+            </links>
+        </file>
+        <file contentKey="HFCIXIV5XXYKFAWT2HA3RM4XFJPJQAFW" name="ms1.css" type="css">
+            <links>
+                <link href="/css/ms1.css" method="GET" rel="content" type="text/css" uri="/css/ms1.css"/>
+            </links>
+        </file>
+        <file contentKey="I5TTGUTQXLT36AQ6GCPEE5XFKEG7IRWN" name="dd27639.csv" type="data">
+            <links>
+                <link href="/data/dd27639.csv" method="GET" rel="content" type="text/csv" uri="/data/dd27639.csv"/>
+            </links>
+        </file>
+        <file contentKey="ZA24NHADNV2OOIZIMLCONPC4WPR2HQIJ" name="dd27639index.csv" type="data">
+            <links>
+                <link href="/data/dd27639index.csv" method="GET" rel="content" type="text/csv" uri="/data/dd27639index.csv"/>
+            </links>
+        </file>
+        <file contentKey="3CNC6QZEEHN77URGQ6PTZQTQRVODKGOM" name="dd27651.csv" type="data">
+            <links>
+                <link href="/data/dd27651.csv" method="GET" rel="content" type="text/csv" uri="/data/dd27651.csv"/>
+            </links>
+        </file>
+        <file contentKey="ELAJ2HHAMOPXOY6BPJRI44AOUBE4N6J7" name="dd27651index.csv" type="data">
+            <links>
+                <link href="/data/dd27651index.csv" method="GET" rel="content" type="text/csv" uri="/data/dd27651index.csv"/>
+            </links>
+        </file>
+        <file contentKey="HEYTCA25TKSV47XKDNDHAQ3ZNJSG6XWK" name="metadataSupplement" type="resource">
+            <links>
+                <link href="/metadataSupplement.xml" method="GET" rel="content" type="application/vnd.sas.report.metadata.supplement" uri="/metadataSupplement.xml"/>
+            </links>
+        </file>
+        <file contentKey="ER2J62CKQE6C4ACLBGCVGOZZ2JCKDOP2" name="packageStatusReport.txt" type="status">
+            <links>
+                <link href="/packageStatusReport.txt" method="GET" rel="content" type="text/plain" uri="/packageStatusReport.txt"/>
+            </links>
+        </file>
+        <file contentKey="IBM6UIPVJJUT2MHGE6MS3MWQ5E4UIGQC" name="index.html" type="html">
+            <links>
+                <link href="/index.html" method="GET" rel="content" type="text/html" uri="/index.html"/>
+            </links>
+        </file>
+        <file contentKey="3KC7XEM6KP26IGC3U5QRSSFWY4P35AN5" name="packageIndex.html" type="html">
+            <links>
+                <link href="/packageIndex.html" method="GET" rel="content" type="text/html" uri="/packageIndex.html"/>
+            </links>
+        </file>
+        <file contentKey="O472Q2LPA63PSJJU7BN2PL5TOQOOFNHM" name="viyafonts.css" type="css">
+            <links>
+                <link href="/css/viyafonts.css" method="GET" rel="content" type="text/css" uri="/css/viyafonts.css"/>
+            </links>
+        </file>
+        <file contentKey="GWBEY45BDPJKVXB6NDWN3DRW54INU6VG" name="settings" type="resource">
+            <links>
+                <link href="/settings.json" method="GET" rel="content" type="application/vnd.sas.attributes" uri="/settings.json"/>
+            </links>
+        </file>
+    </files>
+    <formatLocale>en-US</formatLocale>
+    <generatedTimeStamp>2024-01-31T12:44:50.032Z</generatedTimeStamp>
+    <id>c_ca855981-e8de-409c-8ef0-99c389db7a8e</id>
+    <links>
+        <link href="/reportPackages/packages/c_ca855981-e8de-409c-8ef0-99c389db7a8e" method="GET" rel="self" type="application/vnd.sas.report.package" uri="/reportPackages/packages/c_ca855981-e8de-409c-8ef0-99c389db7a8e"/>
+        <link href="/reportData/results?reportContentKey=22X2DD6UYTYDPOAMFGBPI33GNBA7X637&amp;reportUri=%2Freports%2Freports%2Feb897d90-e4fd-4bdf-a764-b61af5c339b8&amp;reportDate=2024-01-31T12%3A44%3A50.032Z" method="POST" rel="requery" responseType="application/vnd.sas.report.results" type="application/vnd.sas.report.query.state" uri="/reportData/results?reportContentKey=22X2DD6UYTYDPOAMFGBPI33GNBA7X637&amp;reportUri=%2Freports%2Freports%2Feb897d90-e4fd-4bdf-a764-b61af5c339b8&amp;reportDate=2024-01-31T12%3A44%3A50.032Z"/>
+        <link href="/reportData/jobs?reportContentKey=22X2DD6UYTYDPOAMFGBPI33GNBA7X637&amp;reportUri=%2Freports%2Freports%2Feb897d90-e4fd-4bdf-a764-b61af5c339b8&amp;reportDate=2024-01-31T12%3A44%3A50.032Z" method="POST" rel="requeryJob" responseType="application/vnd.sas.report.data.job" type="application/vnd.sas.report.query.state" uri="/reportData/jobs?reportContentKey=22X2DD6UYTYDPOAMFGBPI33GNBA7X637&amp;reportUri=%2Freports%2Freports%2Feb897d90-e4fd-4bdf-a764-b61af5c339b8&amp;reportDate=2024-01-31T12%3A44%3A50.032Z"/>
+    </links>
+    <locale>en-US</locale>
+    <modifiedTimeStamp>2024-01-31T12:44:08.137Z</modifiedTimeStamp>
+    <reportElements>vi27675</reportElements>
+    <size>411986</size>
+    <source>/reports/reports/eb897d90-e4fd-4bdf-a764-b61af5c339b8</source>
+    <timeSensitivityInterval>day</timeSensitivityInterval>
+    <updateCharacteristic>timeSensitive</updateCharacteristic>
+    <version>39</version>
+    <warnings>result,limitedInteractivity</warnings>
+</reportPackage>

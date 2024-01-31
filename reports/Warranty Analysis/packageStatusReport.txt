@@ -1,0 +1,6 @@
+Costs by Primary Labor Group
+  Interactivity for this object is limited for the following reasons:
+    * Linked selection actions are not supported.
+    * Navigation in the hierarchy 'Labor Hierarchy' is limited to the levels 'Primary Labor Group, Primary Labor Code, Make'.
+  These reasons might only be a problem because of these data complexities:
+    * The basic interactive query has exceeded the data limit.
